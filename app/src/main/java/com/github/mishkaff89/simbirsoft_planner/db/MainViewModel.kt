@@ -22,6 +22,7 @@ class MainViewModel(dataBase: DataBase): ViewModel() {
         return dao.getAllTasksForDay(dayId).asLiveData()
     }
 
+
     class MainViewModelFactory(private val database: DataBase) : ViewModelProvider.Factory{
         override fun <T : ViewModel> create(modelClass: Class<T>): T {
             if (modelClass.isAssignableFrom(MainViewModel::class.java)){

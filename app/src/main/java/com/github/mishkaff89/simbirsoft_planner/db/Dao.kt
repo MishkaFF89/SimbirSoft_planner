@@ -22,4 +22,6 @@ interface Dao {
 
     @Query("SELECT * FROM task WHERE dayId LIKE :dayId")
     fun getAllTasksForDay(dayId: Int): Flow<List<TaskEntity>>
+
+
 }

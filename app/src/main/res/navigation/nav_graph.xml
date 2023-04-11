@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/startFragment"
-        android:name="com.github.mishkaff89.simbirsoft_planner.CalendarFragment"
+        android:name="com.github.mishkaff89.simbirsoft_planner.fragments.CalendarFragment"
         android:label="fragment_start"
         tools:layout="@layout/fragment_calendar" >
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/taskFragment"
-        android:name="com.github.mishkaff89.simbirsoft_planner.TaskFragment"
+        android:name="com.github.mishkaff89.simbirsoft_planner.fragments.TaskFragment"
         android:label="fragment_task"
         tools:layout="@layout/fragment_task" >
         <action
