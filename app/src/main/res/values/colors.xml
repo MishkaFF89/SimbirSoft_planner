@@ -8,4 +8,5 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="bg_warning">#F4BFBF</color>
+    <color name="bg_task">#DAF1B5</color>
 </resources>

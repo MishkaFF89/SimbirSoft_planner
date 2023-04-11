@@ -20,7 +20,7 @@ data class TaskEntity (
     val startTime: Int,
 
     @ColumnInfo
-    val endTime: Int,
+    val endTime: String,
 
     @ColumnInfo
     val dayId: Int
